@@ -1,0 +1,28 @@
+//默认颜色
+
+//颜色
+$white: #ffffff; //白色
+$red: #fe1a00;
+$yellow: yellow;
+$green: #a5cc52; //绿色
+$blue: #2dabf9; //蓝色
+$orange: #ffab23; //橙色
+$purple: #c123de; //紫色
+$olive: #dbe6c4; //草绿
+$normal: #f9f9f9; //默认
+$dark: #000000;
+
+//pad
+
+//导出颜色供js调用
+:export {
+  white: $white;
+  red: $red;
+  yellow: $yellow;
+  green: $green; //绿色
+  blue: $blue; //蓝色
+  orange: $orange; //橙色
+  purple: $purple; //紫色
+  olive: $olive; //草绿
+  normal: $normal; //默认
+}
